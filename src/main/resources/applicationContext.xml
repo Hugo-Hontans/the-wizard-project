@@ -10,13 +10,7 @@
 
 
 
-    <bean id="myDressAdvice" class="com.wildcodeschool.thewizardproject.models.Dress">
-    </bean>
-    
-
-    <bean id="theWizard" class="com.wildcodeschool.thewizardproject.models.Dumbledore">
-
-        <constructor-arg ref="myDressAdvice"/>
-    </bean>
+    <context:component-scan base-package="com.wildcodeschool.thewizardproject.models">
+    </context:component-scan>
     
 </beans>
