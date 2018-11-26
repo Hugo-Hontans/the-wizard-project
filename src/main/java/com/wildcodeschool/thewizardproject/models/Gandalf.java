@@ -12,7 +12,7 @@ public class Gandalf implements WizardInterface {
 		dress=theDress;
 	}
 
-	@Autowired
+	
 	public String giveAdvice() {
 		return "Je suis Gandalf le Gris ! Et je te conseille de ne pas passer...";
 	}

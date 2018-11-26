@@ -8,7 +8,7 @@ public class Dumbledore implements WizardInterface {
 	
 	private Dress dress;
 
-	@Autowired
+	
 	public Dumbledore(Dress theDress) {
 		dress = theDress;
 	}
